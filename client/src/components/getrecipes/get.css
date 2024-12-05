@@ -1,0 +1,126 @@
+/* Container Styling */
+.get-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+.get-header {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Table Styling */
+.get-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.get-table th,
+.get-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+.get-table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.get-table td {
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+.get-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons Styling */
+.get-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.get-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-button:hover {
+    transform: translateY(-1px);
+}
+
+.get-delete {
+    background-color: #dc3545;
+}
+
+.get-delete:hover {
+    background-color: #c82333;
+}
+
+.get-edit {
+    background-color: #28a745;
+}
+
+.get-edit:hover {
+    background-color: #218838;
+}
+
+/* Add Product Button */
+.add-button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .get-container {
+        padding: 15px;
+    }
+
+    .get-table th,
+    .get-table td {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .add-button {
+        font-size: 14px;
+    }
+}
